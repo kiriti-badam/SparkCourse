@@ -105,3 +105,6 @@ ENV/
 
 # Peter Norvig big.txt
 big.txt
+
+# Pycharm settings
+.idea/
