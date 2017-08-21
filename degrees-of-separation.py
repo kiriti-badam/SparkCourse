@@ -3,6 +3,7 @@ from pyspark import SparkConf, SparkContext
 
 conf = SparkConf().setMaster("local").setAppName("DegreesOfSeparation")
 sc = SparkContext(conf = conf)
+sc.setLogLevel('ERROR')
 
 # The characters we wish to find the degree of separation between:
 startCharacterID = 5306 #SpiderMan
